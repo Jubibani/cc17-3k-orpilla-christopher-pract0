@@ -6,14 +6,14 @@ fun main() {
     // random pounds and convert to kilograms
     val pounds = Random.nextInt(1, 300)  // Random weight between 1 and 300 pounds
     println("Weight in Pounds: $pounds (lbs)")
-    val kilograms = pounds * 0.453592
+    val kilograms = pounds * 453592 / 1000000
     println("Converted in Kilograms: $kilograms (kg)")
     println("==================================")
 
     // random miles and convert to kilometers
     val miles = Random.nextInt(1, 500)
     println("Length in Miles: $miles (mi)")
-    val kilometers = miles * 1.60934
+    val kilometers = miles * 160934 / 100000
     println("Converted in Kilometers = $kilometers kilometers (km)")
     println("==================================")
 
